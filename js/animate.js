@@ -29,8 +29,7 @@ function playOctopus(rive) {
             maxX: canvas.width,
             maxY: canvas.height
         }, artboard.bounds);
-    });
-    artboard.draw(renderer);
+        artboard.draw(renderer);
     ctx.restore();
 
     let lastTime = 0;
@@ -59,4 +58,6 @@ function playOctopus(rive) {
 
         requestAnimationFrame(draw);
     }
+    });
+    
 }
