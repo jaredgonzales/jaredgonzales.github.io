@@ -41,8 +41,8 @@ function playOctopus(rive) {
         const elapsedTime = (time - lastTime) / 1000;
         lastTime = time;
 
-        myAnimInstance.advance(elapsedTime);
-        myAnimInstance.apply(artboard, 1.0);
+        infitapAnimInstance.advance(elapsedTime);
+        infitapAnimInstance.apply(artboard, 1.0);
         artboard.advance(elapsedTime);
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
