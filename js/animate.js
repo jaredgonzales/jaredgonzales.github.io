@@ -1,11 +1,11 @@
 Rive({
     locateFile: (file) => 'https://unpkg.com/rive-canvas@0.6.4/' + file,
-}).then(() => {
+}).then((rive) => {
     console.log("Successfully loaded Rive runtime.");
-    playOctopus();
+    playOctopus(rive);
 });
 
-function playOctopus() {
+function playOctopus(rive) {
     const req = new Request('animations/infitap-logo-animation.riv');
     fetch(req).then((res) => {
         return res.arrayBuffer();
