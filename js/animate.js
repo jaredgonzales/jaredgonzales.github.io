@@ -58,6 +58,7 @@ function playOctopus(rive) {
 
         requestAnimationFrame(draw);
     }
+        requestAnimationFrame(draw);
     });
     
 }
