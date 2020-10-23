@@ -1,23 +1,103 @@
 @charset "UTF-8";
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /* Body */
 
 body {
-  font-family: source-sans-pro;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+    background-color: #5AB9EA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+/** TEXT **/
+.indent {
+    padding-left: 5%;
+}
+
+/** NAVIGATION BAR **/
+nav {
+    position: absolute;
+    margin-top: 12px;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: #FFFFFF;
+    width: 75%;
+    border-radius: 50px;
+    margin: auto;
+    padding: 15px 25px;
+    display: flex;
+    box-shadow: 4px 5px 0px 8px #000000;
+    
+}
+.nav-logo {
+    margin: auto auto auto 0;
+}
+
+.nav-items {
+    width: 80%;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.nav-items ul{
+    margin: auto 0 auto auto;
+    display: flex;
+    list-style: none;
+}
+
+.nav-list {
+    float: right;
+}
+
+.nav-items li {
+    padding-left: 50px;
+}
+
+/** HERO HEADER **/
+.hero-header {
+    min-height: 200px;
+    background-color: #5AB9EA;
+    padding-top: 3%;
+    padding-bottom: 10px;
+}
+
+.title {
+    margin-left: 10%;
+    color: #FFFFFF;
+    padding-top: 65px;
+    text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000;
+    font-size: 25px;
+}
+
+.title h1 {
+    font-size: 2.5em;
+}
+
+/** MAIN CONTAINER **/
+.main-container {
+    background-color: #5AB9EA;
 }
 
 .sectionHeader {
-  text-align: center;
-  background-color: #5AB9EA;
-  padding: 5px;
+    text-align: center;
+    background-color: #5AB9EA;
+    padding: 5px;
 }
 
 .twoColumn {
-  width = 50%;
+  width: 50%;
   float: left;
   padding-left: 20px;
   padding-right: 20px;
@@ -36,3 +116,24 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
+.mobile-only {
+        display: none;
+}
+
+@media (max-width: 900px) {
+    .nav-items li {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 500px){
+    .mobile-only {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
+    .menu-icon {
+        width: 20px;
+    }
+}

@@ -1,24 +1,63 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-
-
 <head>
-  <link href="css/singlePage.css" rel="stylesheet" type="text/css">
-  <script src="https://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
-  
-  <title>Jared's Website</title>
+<link href="css/singlePage.css" rel="stylesheet" type="text/css">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500&display=swap" rel="stylesheet">
+    
+<!-- Rive -->
+    <script src="https://unpkg.com/rive-canvas@0.6.4/rive.js" defer></script>
+    <script src="js/animate.js" defer></script>
+<title>Jared's Website</title>
 </head>
 
 <body>
-  <div class="currentProjects">
-    <div class="sectionHeader">
-      <h1>Current Projects: </h1>
+<section>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <h2>Jared</h2>
+            </div>
+            <div class="nav-items">
+                <div class="nav-list">
+                    <ul>
+                        <li>
+                            <h2>Projects</h2>
+                        </li>
+                        <li>
+                            <h2>Skills</h2>
+                        </li>
+                        <li>
+                            <h2>Contact</h2>
+                        </li>
+                    </ul>
+                </div>
+                <img class="mobile-only menu-icon" src="icons/menu.svg" > </div>
+        </div>
+    </nav>
+    <div class="hero-header">
+        <div class="title">
+            <h1>Hello!</h1>
+            <h2 class="indent">Welcome to my sandbox.</h2>
+        </div>
     </div>
-    <div class="twoColumn">
-      <img src="images/BoiseCanvasThumb.jpg" width="250" height="250" class="card" />
-      <h3><a href="https://www.boisecanvas.com">Boise Canvas</a></h3>
-    <div>
+</section>
+<div class="main-container">
+    <canvas id="infitapAnimation" width="500px" height="auto">
+    </canvas>
+    <!--
+    <section id="projects">
+        <h1>My Current Projects</h1>
+    </section>
+-->
+        <!--
+    <div class="twoColumn"> <img src="images/BoiseCanvasThumb.jpg" width="250" height="250" class="card" />
+        <h3><a href="https://www.boisecanvas.com">Boise Canvas</a></h3>
+    </div>
+--> 
+    </div>
+</div>
 </body>
-
-
 </html>
