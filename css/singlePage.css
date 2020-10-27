@@ -19,9 +19,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /** TEXT **/
 .indent {
-    padding-left: 5%;
+    text-indent: 5%;
 }
 
 /** NAVIGATION BAR **/
@@ -81,10 +86,16 @@ nav {
     padding-top: 65px;
     text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000;
     font-size: 25px;
+    display: block;
+    width: 75%;
 }
 
 .title h1 {
     font-size: 2.5em;
+}
+
+.welcome {
+    display: flex;
 }
 
 /** MAIN CONTAINER **/
@@ -120,6 +131,13 @@ nav {
   
 .mobile-only {
         display: none;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: #ffffff;
+    border-style: solid;
+    border-width: 5px;
 }
 
 @media (max-width: 900px) {
