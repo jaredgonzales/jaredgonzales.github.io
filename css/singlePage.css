@@ -29,6 +29,10 @@ a {
     text-indent: 5%;
 }
 
+.center {
+    text-align: center;
+}
+
 /** NAVIGATION BAR **/
 nav {
     color: black;
@@ -101,6 +105,8 @@ nav {
 /** MAIN CONTAINER **/
 .main-container {
     background-color: #5AB9EA;
+    width: 90%;
+    margin: auto;
 }
 
 .sectionHeader {
@@ -126,6 +132,12 @@ nav {
 
 /* Images */
 .card {
+    background-color: white;
+    text-indent: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
