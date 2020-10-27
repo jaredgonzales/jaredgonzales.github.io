@@ -140,6 +140,22 @@ nav {
     border-width: 5px;
 }
 
+/* Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.footer-left {
+    width: 25%;
+    text-align: left;
+    display: flex;
+}
+
 @media (max-width: 900px) {
     .nav-items li {
         padding-left: 20px;
