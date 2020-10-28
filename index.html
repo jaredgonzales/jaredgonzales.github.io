@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
 <link href="css/singlePage.css" rel="stylesheet" type="text/css">
+<link href="css/cards.css" rel="stylesheet" type="text/css">
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -41,25 +42,58 @@
         <div class=" welcome">
                 <!--<img class="circle-img" src="images/headshot.jpg" width="250px" height="atuo">-->
                 <div class="title">
-                    <h1>Hello!</h1>    
-                <h2 class="indent">Welcome to my sandbox.</h2>
+                    <h1 class="header">Hello!</h1>    
+                    <h2 class="indent sub-header">Welcome to my sandbox.</h2>
                 </div>
         </div>
     </div>
 </section>
 <div class="main-container">
     <section id="about">
-        <div class="card center">
-            <img class="circle-img card" src="images/headshot.jpg" width="50%" height="auto">
-            <h2>Jared Gonzales</h2>
-            <p>My name is Jared and I'm currently at a Sophomore at Columbia University. I'm studying computer engineering.</p>
+        <div class="profile-card center">
+            <img class="circle-img img-card" src="images/headshot.jpg" width="33%" height="auto">
+            <div class="profile-desc">
+                <h2>Jared Gonzales</h2>
+                <div class="profile-stat">
+                    <hr />
+                    <p><strong>📍 Location: </strong>Boise, Idaho</p>
+                    <p><strong>💪 Strengths: </strong>Full-stack development, IT, and Cybersecurity</p>
+                    <p><strong>💩 Weaknesses: </strong>Early mornings</p>
+                    <p><strong>💼 Status: </strong> Open to part-time/freelance work</p>
+                </div>
+            </div>
         </div>
+        <!--
+        <div class="about-desc">
+            <h1 class="center">About Me</h1>
+            <hr class="section"/>
+            <p class="indent">I'm currently a sophomore at Columbia University studying computer engineering. I enjoy making projects and ideas come to life with technology.</p>
+        </div>
+        -->
     </section>
     <section id="projects">
-        <h1>Projects</h1>
-        <div class="carousel">
-
-        </div>
+        <h1 class="extra-header title">Active Projects</h1>
+        <hr class="extra-section-hr"/>
+        <section class="card-list">
+            <article class="card">
+                <header class="card-header">
+                    <h2>Infitap</h2>
+                    <p>My current startup</p>
+                </header>
+            </article>
+            <article class="card">
+                <header class="card-header">
+                    <h2>Boise Canvas</h2>
+                    <p>My side-hustle</p>
+                </header>
+            </article>
+            <article class="card">
+                <header class="card-header">
+                    <h2>You Can Too Program</h2>
+                    <p>Developer for non-profit</p>
+                </header>
+            </article>
+        </section>
     </section>
     <canvas id="infitapAnimation" width="500px" height="auto">
         
@@ -71,12 +105,11 @@
     </section>
 -->
         <!--
-    <div class="twoColumn"> <img src="images/BoiseCanvasThumb.jpg" width="250" height="250" class="card" />
+    <div class="twoColumn"> <img src="images/BoiseCanvasThumb.jpg" width="250" height="250" class="img-card" />
         <h3><a href="https://www.boisecanvas.com">Boise Canvas</a></h3>
     </div>
 --> 
     </div>
-</div>
 <footer>
         <div class="footer-left">
             <p>&#169; Jared Gonzales </p>

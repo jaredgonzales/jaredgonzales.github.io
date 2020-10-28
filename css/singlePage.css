@@ -14,6 +14,14 @@ body {
     color: white;
 }
 
+.extra-section-hr {
+    border: 5px solid white;
+    margin-top: -10px;
+    background-color: white;
+    box-shadow: 2px 5px 0px 2px #000000;
+    border-radius: 10px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rubik', sans-serif;
     margin: 0;
@@ -31,6 +39,16 @@ a {
 
 .center {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-header {
+    font-size: 2em;
+}
+
+.extra-header {
+    font-size: 5em;
 }
 
 /** NAVIGATION BAR **/
@@ -87,19 +105,18 @@ nav {
 .title {
     margin-left: 10%;
     color: #FFFFFF;
-    padding-top: 65px;
     text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000;
-    font-size: 25px;
     display: block;
     width: 75%;
 }
 
-.title h1 {
-    font-size: 2.5em;
+.welcome {
+    padding-top: 65px;
+    display: flex;
 }
 
-.welcome {
-    display: flex;
+.header {
+    font-size: 3em;
 }
 
 /** MAIN CONTAINER **/
@@ -130,15 +147,53 @@ nav {
 }
 
 
-/* Images */
-.card {
+/** Profile **/
+#about {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.about-desc {
+    margin: 25px;
+}
+.profile-card {
     background-color: white;
     text-indent: 10px;
     color: black;
     border-radius: 10px;
-    margin: auto;
     padding: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    min-width: 33%;
+    max-width: 500px;
+}
+
+.profile-desc {
+    margin: auto;
+}
+
+.profile-stat {
+    font-size: 1.1em;
+}
+
+.profile-stat p {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+.profile-stat hr {
+    border: 1px solid black;
+    margin: 0;
+}
+
+/* Images */
+.img-card {
+    text-indent: 10px;
+    color: black;
+    border-radius: 10px;
+    margin: auto auto 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   
 .mobile-only {
@@ -149,17 +204,14 @@ nav {
     border-radius: 50%;
     border: #ffffff;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
 }
 
 /* Footer */
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
     padding: 10px 20px;
-    display: flex;
 }
 
 .footer-left {
