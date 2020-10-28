@@ -17,7 +17,7 @@ function playInfitapLoad(rive) {
         const infitapAnimInstance = new rive.LinearAnimationInstance(infitapAnim);
 
         // Render animation
-        const canvas = document.getElementById('infitapAnimation');
+        const canvas = document.getElementById('yctAnimation');
         const ctx = canvas.getContext('2d');
         const renderer = new rive.CanvasRenderer(ctx);
         artboard.advance(0);
