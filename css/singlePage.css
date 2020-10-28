@@ -107,7 +107,7 @@ nav {
     color: #FFFFFF;
     text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000;
     display: block;
-    width: 75%;
+    width: 85%;
 }
 
 .welcome {
@@ -228,6 +228,9 @@ canvas {
     .nav-items li {
         padding-left: 20px;
     }
+    .extra-header {
+        font-size: 3em;
+    }
 }
 
 @media (max-width: 500px){
@@ -236,6 +239,9 @@ canvas {
     }
     .nav-list {
         display: none;
+    }
+    .extra-header {
+        font-size: 2em;
     }
     .menu-icon {
         width: 20px;
