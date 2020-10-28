@@ -252,5 +252,6 @@ canvas {
     }
     .menu-icon {
         width: 20px;
+        cursor: pointer;
     }
 }
