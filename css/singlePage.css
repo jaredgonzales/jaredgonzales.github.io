@@ -207,6 +207,11 @@ nav {
     border-width: 2px;
 }
 
+.thumb {
+    max-height: 100%;
+    max-width: 50%;
+}
+
 /* Footer */
 footer {
     left: 0;
@@ -215,7 +220,7 @@ footer {
 }
 
 .footer-left {
-    width: 33%;
+    width: 50%;
     text-align: left;
     display: flex;
 }
@@ -223,6 +228,8 @@ footer {
 canvas {
     max-width: 100%;
 }
+
+
 
 @media (max-width: 900px) {
     .nav-items li {
