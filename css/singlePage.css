@@ -122,7 +122,7 @@ nav {
 /** MAIN CONTAINER **/
 .main-container {
     background-color: #5AB9EA;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -218,6 +218,10 @@ footer {
     width: 33%;
     text-align: left;
     display: flex;
+}
+
+canvas {
+    max-width: 100%;
 }
 
 @media (max-width: 900px) {
