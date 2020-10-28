@@ -65,7 +65,7 @@ function playInfitapLoad(rive) {
 }
 
 function playYCT(rive) {
-    const req = new Request('https://jaredgonzales.me/animations/you-can-too-logo.riv');
+    const req = new Request('https://jaredgonzales.me/animations/yct-logo.riv');
     fetch(req).then((res) => {
         return res.arrayBuffer();
     }).then((buf) => {
