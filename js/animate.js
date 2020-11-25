@@ -2,7 +2,7 @@ Rive({
     locateFile: (file) => 'https://unpkg.com/rive-canvas@0.6.4/' + file,
 }).then((rive) => {
     console.log("Successfully loaded Rive runtime.");
-    playAnimation(rive, 'https://jaredgonzales.me/animations/infitap-logo-animation.riv', 'Rainbow Outline', 'infitapAnimation');
+    playAnimation(rive, 'https://jaredgonzales.me/animations/infitap-logo-animation-new.riv', 'Rainbow Outline', 'infitapAnimation');
     playAnimation(rive, 'https://jaredgonzales.me/animations/yct-logo.riv', 'Reveal', 'yctAnimation');
 });
 
