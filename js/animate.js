@@ -1,5 +1,5 @@
 Rive({
-    locateFile: (file) => 'https://unpkg.com/rive-canvas@0.6.4/' + file,
+    locateFile: (file) => 'https://unpkg.com/rive-canvas@0.6.5/' + file,
 }).then((rive) => {
     console.log("Successfully loaded Rive runtime.");
     playAnimation(rive, 'https://jaredgonzales.me/animations/infitap-logo-animation.riv', 'Rainbow Outline', 'infitapAnimation');
